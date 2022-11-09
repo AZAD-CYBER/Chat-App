@@ -1,6 +1,6 @@
 import React from "react";
-import "rsuite/styles/index.less";
 import "./styles/main.scss";
+import "rsuite/dist/rsuite.min.css";
 import { Switch } from "react-router";
 import PrivateRoute from "./components/PrivateRoute";
 import PublicRoute from "./components/PublicRoute";
