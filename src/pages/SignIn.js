@@ -22,9 +22,9 @@ function SignIn() {
     }
   };
 
-  const onFacebookSignIn = () => {
-    signInWithProvider(new firebase.auth.FacebookAuthProvider());
-  };
+  // const onFacebookSignIn = () => {
+  //   signInWithProvider(new firebase.auth.FacebookAuthProvider());
+  // };
 
   const onGoogleSignIn = () => {
     signInWithProvider(new firebase.auth.GoogleAuthProvider());
